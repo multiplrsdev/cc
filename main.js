@@ -4012,6 +4012,11 @@ Game.Launch=function()
 			Game.cookies+=howmuch;
 			Game.cookiesEarned+=howmuch;
 		}
+		Game.EarnInf=function()
+		{
+			Game.cookies+=Infinity;
+			Game.cookiesEarned+=Infinity;
+		}
 		Game.Spend=function(howmuch)
 		{
 			Game.cookies-=howmuch;
